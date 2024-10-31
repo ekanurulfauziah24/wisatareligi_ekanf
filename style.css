@@ -1,37 +1,154 @@
-    <style>
-        body {
-            background-color: #87CEEB; 
-            background-size: cover; 
-            background-position: center; 
-            color: white; 
-            height: 100vh; 
-        }
-    </style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, sans-serif;
-}
-
-header {
-    background-image: url('masjidkudus1.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    color: #ADD8E6;
-    padding: 100px 0;
-    text-align: center;
-}
-
-.navbar {
-    background-color: rgba(0, 0, 0, 0.7); 
-}
-
-.navbar-brand, .nav-link {
-    color: #fff !important;
-    font-weight: bold;
-}
-
-h2 {
+    background-color: #a8e3ff;
     color: #333;
 }
 
-.container p {
-    color: #666;
+header {
+    background-color: #5dbeff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk galeri */
+.gallery {
+    padding: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+figure {
+    margin: 0;
+    width: calc(25% - 20px); 
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease; 
+}
+
+figure figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fffdfd;
+    font-weight: bold;
+}
+
+figure:hover img {
+    transform: scale(1.02); 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #60cdff;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #60cdff;
+    color: white;
+}
+
+footer {
+    background-color: #60cdff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    background-image: url('masjidkudu1.img');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 10px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
