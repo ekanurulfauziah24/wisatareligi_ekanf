@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('masjidkudus1.jpg');
+    background-size: cover;
+    color: #fff;
+}
