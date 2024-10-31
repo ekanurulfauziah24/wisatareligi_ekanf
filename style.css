@@ -1,22 +1,33 @@
+/* style.css */
+
 body {
     font-family: Arial, sans-serif;
 }
 
+/* Background untuk header di Beranda */
 header {
-    background-image: url('masjidkudus1.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('masjidkudus1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
     color: #fff;
     padding: 100px 0;
     text-align: center;
 }
 
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
 .navbar-brand, .nav-link {
+    color: #fff !important;
     font-weight: bold;
 }
 
 h2 {
-    margin-top: 20px;
     color: #333;
 }
 
+.container p {
+    color: #666;
+}
