@@ -1,10 +1,7 @@
-/* style.css */
-
 body {
     font-family: Arial, sans-serif;
 }
 
-/* Background untuk header di Beranda */
 header {
     background-image: url('masjidkudus1.jpg'); 
     background-size: cover; 
