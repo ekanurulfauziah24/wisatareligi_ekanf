@@ -1,1 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('masjidkudus1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
 
