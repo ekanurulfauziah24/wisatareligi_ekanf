@@ -6,16 +6,13 @@
     <title>Kontak Kami - Wisata Religi</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            background-color: #87CEEB; 
+        }
+    </style>
 </head>
 <body>
-    <head>
-        <style>
-            body {
-                background-color: #87CEEB; 
-            }
-        </style>
-    </head>
-
 
 <nav class="navbar navbar-expand-lg navbar-blue bg-white">
     <a class="navbar-brand" href="index.html">Wisata Religi</a>
@@ -38,7 +35,7 @@
     <h1>Kontak Kami</h1>
     <p>Silahkan isi form di bawah ini untuk menghubungi kami, terima kasih!.</p>
     
-    <form action="database/insert.php" method="POST" enctype="multipart/form-data">
+    <form action="insert.php" method="POST" enctype="multipart/form-data">
         <div class="form-group">
             <label for="nama">Nama</label>
             <input type="text" class="form-control" id="nama" name="nama" required>
@@ -58,8 +55,6 @@
         <button type="submit" class="btn btn-primary">Kirim</button>
     </form>
 </div>
-
-
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
