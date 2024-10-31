@@ -1,10 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
-    background-image: url('masjidkudus1.jpg');
-}
+<style>
+        body {
+            background-image: url('masjidkudus1.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            color: white; 
+            height: 100vh; 
+        }
 
-header {
-    background-image: url('masjidkudus1.jpg');
-    background-size: cover;
-    color: #fff;
-}
+        .content {
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin-top: 20%; 
+            text-align: center; 
+        }
+    </style>
